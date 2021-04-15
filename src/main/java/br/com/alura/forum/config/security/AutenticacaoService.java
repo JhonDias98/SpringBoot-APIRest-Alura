@@ -12,7 +12,7 @@ import br.com.alura.forum.modelo.Usuario;
 import br.com.alura.forum.repository.UsuarioRepository;
 
 @Service
-public class AutenticacaoService implements UserDetailsService {
+public class AutenticacaoService implements UserDetailsService { 
 	@Autowired
 	private UsuarioRepository repository;
 	
